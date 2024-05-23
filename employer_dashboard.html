@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employer Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Employer Dashboard</h1>
+    </header>
+    <main>
+        <form id="employeeDetailsForm">
+            <label for="employeeName">Employee Name:</label>
+            <br>
+            <input type="text" id="employeeName" name="employeeName" required>
+            <br>
+            <label for="employeeId">Employee ID:</label>
+            <br>
+            <input type="text" id="employeeId" name="employeeId" required>
+            <br>
+            <label for="position">Position:</label>
+            <br>
+            <input type="text" id="position" name="position" required>
+            <br>
+            <button type="submit">Add Employee</button>
+        </form>
+        <div id="employeeListContainer">
+            <h2>Employees</h2>
+            <ul id="employeeList"></ul>
+        </div>
+    </main>
+    <script src="js/employer_dashboard.js"></script>
+</body>
+</html>
